@@ -1,0 +1,5 @@
+add_library(GenOperator GenOperator.cpp classAndVarDefine.cpp config.cpp GenerateAChrom.cpp)
+add_library(tools tools.cpp)
+add_library(pugixml pugixml.cpp)
+add_library(classAndVarDefine classAndVarDefine.cpp)
+add_library(config config.cpp)

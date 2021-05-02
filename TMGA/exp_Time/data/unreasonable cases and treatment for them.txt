@@ -1,0 +1,6 @@
+In "Epigenomics_997" there are following unreasonable cases:
+1) the runtime of some tasks is less than 0 or equal to 0; 
+2) the size of some files is less than 0. 
+
+So we let the length of task be equal to max{abs(runtime),0.001} and 
+let the size of file be equal to abs(size) ; 
